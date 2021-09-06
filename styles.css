@@ -1,6 +1,44 @@
 * {
     box-sizing: border-box;
+    font-family: Muli, fantasy;
+
 }
+
+body {
+    background-image: url("img/bg__header-line--full.png");
+    background-repeat: no-repeat;
+
+
+}
+
+img {
+    width: 98% ;
+    position: absolute;
+    top: 30px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.button {
+    border-radius: 20px;
+    border-style: none;
+    background: #5745ca;
+    color: white;
+
+}
+
 
 .inputfield {
     display: flex;

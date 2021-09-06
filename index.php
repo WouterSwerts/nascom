@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header>
     <?php
     include 'header.php';
@@ -18,6 +19,6 @@
 <?php
 include 'form.php';
 ?>
-
+<!--<img src="img/bg__header-line--full.png" alt="">-->
 </body>
 </html>
