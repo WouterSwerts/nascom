@@ -1,12 +1,5 @@
 <?php
-if (!isset($_SESSION["id"])) {
-    header("location: index.php");
-}
-
 include 'sollicitantenOverviewCode.php';
-//session_start();
-
-
 ?>
 
 <!doctype html>
@@ -23,9 +16,13 @@ include 'sollicitantenOverviewCode.php';
 <body>
 <?php
 include 'header.php';
+if (!isset($_SESSION["id"])) {
+    header("location: index.php");
+}
 ?>
 
 <h1>Sollicitanten overzicht</h1>
+
 
 <table>
     <tr>
@@ -36,6 +33,7 @@ include 'header.php';
         <th>Motivatie</th>
         <th>CV</th>
     </tr>
+
     <?php getSollicitanten(); ?>
 
 </table>
